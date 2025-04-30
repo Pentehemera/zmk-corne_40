@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - $$mdi:volume-off$$
