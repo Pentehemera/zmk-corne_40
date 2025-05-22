@@ -46,9 +46,9 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - NUMBER
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-command$$
-  - SYMBOL
   - super
+  - SYMBOL
+  - $$mdi:apple-keyboard-command$$
   NUMBER:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -193,9 +193,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   func:
   - MUTE
   - F1
