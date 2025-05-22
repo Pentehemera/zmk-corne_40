@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - func
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - NUMBER
-  - SYMBOL
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
+  - SYMBOL
   - super
   NUMBER:
   - $$mdi:keyboard-esc$$
@@ -93,8 +93,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   super:
   - {t: '$$mdi:transfer$$', type: trans}
