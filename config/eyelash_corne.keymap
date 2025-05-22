@@ -94,7 +94,7 @@
         };
 
         func {
-            display-name = "Fn";
+            display-name = "func";
             bindings = <
 &kp K_MUTE         &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                                &mmv MOVE_UP                     &kp F6           &kp F7           &kp F8  &kp F9  &kp F10  &kp F11
 &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &bt BT_PRV       &bt BT_NXT       &trans           &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &trans  &trans  &trans   &kp F12
