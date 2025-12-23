@@ -69,7 +69,7 @@
             bindings = <
 &trans  &kp Q        &kp W  &kp E         &kp R                 &kp T                               &kp UP                &kp Y        &kp U             &kp I  &kp O      &kp P                    &trans
 &trans  &mt LCTRL A  &kp S  &kp D         &kp F                 &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J             &kp K  &kp L      &mt RIGHT_CONTROL ENTER  &trans
-&trans  &kp Z        &kp Z  &kp X         &kp C                 &kp B        &kp SPACE              &kp DOWN              &kp B        &kp N             &kp M  &kp COMMA  &mt RIGHT_SHIFT PERIOD   &trans
+&trans  &kp SLASH    &kp Z  &kp X         &kp C                 &kp B        &kp SPACE              &kp DOWN              &kp B        &kp N             &kp M  &kp COMMA  &mt RIGHT_SHIFT PERIOD   &trans
                             &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &lt 1 SPACE                                               &lt 2 SPACE  &kp LEFT_COMMAND  &mo 3
             >;
 
@@ -93,7 +93,7 @@
             bindings = <
 &trans  &kp EXCL       &kp AT         &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET             &kp AMPS       &kp ASTRK     &kp LPAR       &kp RPAR          &trans
 &trans  &kp LS(MINUS)  &kp LS(EQUAL)  &trans    &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)  &kp LS(LBKT)  &kp LS(RBKT)   &kp TAB           &trans
-&trans  &trans         &trans         &trans    &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp LS(BACKSLASH)     &trans         &trans        &kp LESS_THAN  &kp GREATER_THAN  &trans
+&trans  &kp QUESTION   &trans         &trans    &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp LS(BACKSLASH)     &trans         &trans        &kp LESS_THAN  &kp GREATER_THAN  &trans
                                       &trans    &trans    &trans                                                                &trans                &trans         &trans
             >;
 
