@@ -81,7 +81,7 @@
             bindings = <
 &trans  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5                                &mmv MOVE_UP                     &kp N6            &kp N7             &kp N8         &kp N9   &kp N0   &trans
 &trans  &kp MINUS  &kp EQUAL  &trans  &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp SQT  &kp TAB  &trans
-&trans  &trans     &trans     &trans  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans            &trans             &trans         &trans   &trans   &trans
+&trans  &kp GRAVE  &trans     &trans  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp BACKSLASH     &trans             &trans         &trans   &trans   &trans
                               &trans  &trans  &trans                                                                 &trans            &trans             &trans
             >;
 
@@ -91,10 +91,10 @@
         Raise {
             display-name = "RAISE";
             bindings = <
-&trans  &kp EXCL       &kp AT         &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET             &kp AMPS       &kp ASTRK     &kp LPAR       &kp RPAR          &trans
-&trans  &kp LS(MINUS)  &kp LS(EQUAL)  &trans    &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)  &kp LS(LBKT)  &kp LS(RBKT)   &kp TAB           &trans
-&trans  &kp QUESTION   &trans         &trans    &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp LS(BACKSLASH)     &trans         &trans        &kp LESS_THAN  &kp GREATER_THAN  &trans
-                                      &trans    &trans    &trans                                                                &trans                &trans         &trans
+&trans  &kp EXCL       &kp AT         &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET       &kp AMPS         &kp ASTRK  &kp LPAR           &kp RPAR          &trans
+&trans  &kp LS(MINUS)  &kp LS(EQUAL)  &trans    &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp COLON  &kp DOUBLE_QUOTES  &kp TAB           &trans
+&trans  &kp TILDE      &trans         &trans    &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp PIPE        &trans           &trans     &kp LESS_THAN      &kp GREATER_THAN  &trans
+                                      &trans    &trans    &trans                                                                &trans          &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
