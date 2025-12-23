@@ -65,19 +65,19 @@
         compatible = "zmk,keymap";
 
         QWERT {
-            display-name = "QWERTY";
+            display-name = "デフォルト";
             bindings = <
-&trans  &kp Q        &kp W  &kp E         &kp R                 &kp T                               &kp UP                &kp Y        &kp U             &kp I  &kp O      &kp P                    &trans
-&trans  &mt LCTRL A  &kp S  &kp D         &kp F                 &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J             &kp K  &kp L      &mt RIGHT_CONTROL ENTER  &trans
-&trans  &kp SLASH    &kp Z  &kp X         &kp C                 &kp B        &kp SPACE              &kp DOWN              &kp B        &kp N             &kp M  &kp COMMA  &mt RIGHT_SHIFT PERIOD   &trans
-                            &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &lt 1 SPACE                                               &lt 2 SPACE  &kp LEFT_COMMAND  &mo 3
+&trans  &kp Q        &kp W  &kp E         &kp R                   &kp T                               &kp UP                &kp Y        &kp U                  &kp I  &kp O      &kp P                    &trans
+&trans  &mt LCTRL A  &kp S  &kp D         &kp F                   &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J                  &kp K  &kp L      &mt RIGHT_CONTROL ENTER  &trans
+&trans  &kp SLASH    &kp Z  &kp X         &kp C                   &kp B        &kp SPACE              &kp DOWN              &kp B        &kp N                  &kp M  &kp COMMA  &mt RIGHT_SHIFT PERIOD   &trans
+                            &kp LEFT_ALT  &mt LEFT_COMMAND SPACE  &lt 1 SPACE                                               &lt 2 SPACE  &mt RIGHT_SHIFT SPACE  &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         Lower {
-            display-name = "Lower";
+            display-name = "ロウワー";
             bindings = <
 &trans  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5                                &mmv MOVE_UP                     &kp N6            &kp N7             &kp N8         &kp N9   &kp N0   &trans
 &trans  &kp MINUS  &kp EQUAL  &trans  &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp SQT  &kp TAB  &trans
@@ -89,7 +89,7 @@
         };
 
         Raise {
-            display-name = "Raise";
+            display-name = "レイズ";
             bindings = <
 &trans  &kp EXCL       &kp AT         &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET             &kp AMPS       &kp ASTRK     &kp LPAR       &kp RPAR          &trans
 &trans  &kp LS(MINUS)  &kp LS(EQUAL)  &trans    &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)  &kp LS(LBKT)  &kp LS(RBKT)   &kp TAB           &trans
@@ -101,12 +101,12 @@
         };
 
         Super {
-            display-name = "Super";
+            display-name = "スーパー";
             bindings = <
-&trans  &kp ESCAPE      &kp UP_ARROW    &trans           &trans  &trans                                &mmv MOVE_UP                     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &kp BACKSPACE  &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans         &trans
-&trans  &trans          &trans          &trans           &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &mo 4          &trans
-                                        &trans           &trans  &trans                                                                 &trans        &trans        &trans
+&trans  &kp ESCAPE      &kp UP_ARROW    &trans           &trans            &trans                                &mmv MOVE_UP                     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE  &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans         &trans
+&trans  &trans          &trans          &trans           &trans            &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &mo 4          &trans
+                                        &trans           &kp LEFT_COMMAND  &trans                                                                 &trans        &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -120,7 +120,7 @@
                                             &trans           &trans           &trans                                             &trans           &trans           &trans
             >;
 
-            label = "Fn";
+            label = "FN";
         };
     };
 };
