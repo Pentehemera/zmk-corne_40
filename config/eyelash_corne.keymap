@@ -65,7 +65,7 @@
         compatible = "zmk,keymap";
 
         QWERT {
-            display-name = "デフォルト";
+            display-name = "DEFAULT";
             bindings = <
 &trans  &kp Q                 &kp W  &kp E         &kp R                   &kp T                               &kp UP                &kp Y        &kp U                  &kp I  &kp O      &kp P                    &trans
 &trans  &mt LCTRL A           &kp S  &kp D         &kp F                   &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J                  &kp K  &kp L      &mt RIGHT_CONTROL ENTER  &trans
@@ -77,7 +77,7 @@
         };
 
         Lower {
-            display-name = "ロウワー";
+            display-name = "LOWER";
             bindings = <
 &trans  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5                                &mmv MOVE_UP                     &kp N6            &kp N7             &kp N8         &kp N9   &kp N0   &trans
 &trans  &kp MINUS  &kp EQUAL  &trans  &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp SQT  &kp TAB  &trans
@@ -89,7 +89,7 @@
         };
 
         Raise {
-            display-name = "レイズ";
+            display-name = "RAISE";
             bindings = <
 &trans  &kp EXCL       &kp AT         &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET             &kp AMPS       &kp ASTRK     &kp LPAR       &kp RPAR          &trans
 &trans  &kp LS(MINUS)  &kp LS(EQUAL)  &trans    &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)  &kp LS(LBKT)  &kp LS(RBKT)   &kp TAB           &trans
@@ -101,7 +101,7 @@
         };
 
         Super {
-            display-name = "スーパー";
+            display-name = "SUPER";
             bindings = <
 &trans  &kp ESCAPE      &kp UP_ARROW    &trans           &trans            &trans                                &mmv MOVE_UP                     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE  &trans
 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans         &trans
@@ -120,7 +120,7 @@
                                             &trans           &trans           &trans                                             &trans           &trans           &trans
             >;
 
-            label = "FN";
+            label = "Func";
         };
     };
 };
