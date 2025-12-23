@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  デフォルト:
+  DEFAULT:
   - {t: '$$mdi:transfer$$', type: trans}
   - Q
   - W
@@ -45,11 +45,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: ロウワー}
-  - {t: '$$mdi:keyboard-space$$', h: レイズ}
+  - {t: '$$mdi:keyboard-space$$', h: LOWER}
+  - {t: '$$mdi:keyboard-space$$', h: RAISE}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - スーパー
-  ロウワー:
+  - SUPER
+  LOWER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  レイズ:
+  RAISE:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  スーパー:
+  SUPER:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
   - $$mdi:arrow-up-bold$$
@@ -188,7 +188,7 @@ layers:
   - '2'
   - '3'
   - {t: '$$mdi:transfer$$', type: trans}
-  - FN
+  - Func
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  FN:
+  Func:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -248,4 +248,4 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-  l: [スーパー]
+  l: [SUPER]
